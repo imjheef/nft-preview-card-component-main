@@ -57,7 +57,24 @@ main p{
     width: 100%;
     border-radius: 18px;
     margin-bottom: 20px;
+
 }
+
+picture:hover .overlay {
+    background: var(--cyan);
+    object-fit: scale-down;
+    object-position: center;
+    opacity: .6;
+    border-radius: 18px;
+    width: 302px;
+    margin: 0;
+    content: url(./images/icon-view.svg);
+    cursor: pointer;
+    position: absolute;
+    top: 240px;
+}
+
+
 
 
 
