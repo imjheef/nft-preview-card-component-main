@@ -71,7 +71,7 @@ picture:hover .overlay {
     content: url(./images/icon-view.svg);
     cursor: pointer;
     position: absolute;
-    top: 240px;
+    top: 200px;
 }
 
 
